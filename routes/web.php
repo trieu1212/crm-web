@@ -14,12 +14,11 @@ use App\Http\Controllers\WebhookController;
 |
 */
 
-Route::get('/contact', function () {
-    return view('welcome');
-});
+
 Route::get('/',[HomeController::class,'index'])->name('home');
 
+Route::get('/contact', function () {
+    return view('contact');
+});
 
-
-Route::post('/submit-form', [WebhookController::class, 'submitForm']);
-Route::post('/submit-form-api', [WebhookController::class, 'postWithApi']);
+Route::post('/form-request', [WebhookController::class, 'index']);

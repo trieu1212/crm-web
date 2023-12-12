@@ -8,7 +8,7 @@
                 <div class="col-md-6">
                   <div class="banner-content">
                     <h1 class="display-2 text-uppercase text-dark pb-5">SẢN PHẨM INOX</h1>
-                    <a href="shop.html" class="btn btn-medium btn-dark text-uppercase btn-rounded-none">Mua Ngay</a>
+                    <a href="#" class="btn btn-medium btn-dark text-uppercase btn-rounded-none">Mua Ngay</a>
                   </div>
                 </div>
                 <div class="col-md-5" >
@@ -83,7 +83,7 @@
 
     {{-- Sản Phẩm --}}
   <hr>
-<h1 style="text-align: center; color:brown">Thiết Bị INOX</h1>
+<h1 style="text-align: center; color:brown" id="product-list">Thiết Bị INOX</h1>
 
 <div class="container">
   <div class="row">
@@ -102,7 +102,7 @@
                           <a href="#"><i class="fa fa-random"></i></a>
                       </li>
                   </ul>
-                  <a href="#" class="add-cart">Mua Ngay</a>
+                  <a href="{{ URL::to('/contact') }}" class="add-cart">Liên hệ ngay!</a>
               </div>
               <div class="product-content">
                   <h3 class="title"><a href="#">Giá inox treo tường</a></h3>
@@ -124,7 +124,7 @@
                         <a href="#"><i class="fa fa-random"></i></a>
                     </li>
                 </ul>
-                <a href="#" class="add-cart">Mua Ngay</a>
+                <a href="{{ URL::to('/contact') }}" class="add-cart">Liên hệ ngay!</a>
             </div>
             <div class="product-content">
                 <h3 class="title"><a href="#">Tủ inox cửa mở</a></h3>
@@ -146,7 +146,7 @@
                       <a href="#"><i class="fa fa-random"></i></a>
                   </li>
               </ul>
-              <a href="#" class="add-cart">Mua Ngay</a>
+              <a href="{{ URL::to('/contact') }}" class="add-cart">Liên hệ ngay!</a>
           </div>
           <div class="product-content">
               <h3 class="title"><a href="#">Bàn tủ inox treo tường</a></h3>
@@ -168,7 +168,7 @@
                     <a href="#"><i class="fa fa-random"></i></a>
                 </li>
             </ul>
-            <a href="#" class="add-cart">Mua Ngay</a>
+            <a href="{{ URL::to('/contact') }}" class="add-cart">Liên hệ ngay!</a>
         </div>
         <div class="product-content">
             <h3 class="title"><a href="#">Cầu thang inox</a></h3>
@@ -191,7 +191,7 @@
                       <a href="#"><i class="fa fa-random"></i></a>
                   </li>
               </ul>
-              <a href="#" class="add-cart">Mua Ngay</a>
+              <a href="{{ URL::to('/contact') }}" class="add-cart">Liên hệ ngay!</a>
           </div>
           <div class="product-content">
               <h3 class="title"><a href="#">Chụp hút khói</a></h3>
@@ -213,7 +213,7 @@
                     <a href="#"><i class="fa fa-random"></i></a>
                 </li>
             </ul>
-            <a href="#" class="add-cart">Mua Ngay</a>
+            <a href="{{ URL::to('/contact') }}" class="add-cart">Liên hệ ngay!</a>
         </div>
         <div class="product-content">
             <h3 class="title"><a href="#">Ống thoát khói Inox</a></h3>
@@ -235,7 +235,7 @@
                   <a href="#"><i class="fa fa-random"></i></a>
               </li>
           </ul>
-          <a href="#" class="add-cart">Mua Ngay</a>
+          <a href="{{ URL::to('/contact') }}" class="add-cart">Liên hệ ngay!</a>
       </div>
       <div class="product-content">
           <h3 class="title"><a href="#">Lò nướng inox</a></h3>
@@ -257,7 +257,7 @@
                 <a href="#"><i class="fa fa-random"></i></a>
             </li>
         </ul>
-        <a href="#" class="add-cart">Mua Ngay</a>
+        <a href="{{ URL::to('/contact') }}" class="add-cart">Liên hệ ngay!</a>
     </div>
     <div class="product-content">
         <h3 class="title"><a href="#">Giàn phơi quần áo inox đôi</a></h3>

@@ -236,7 +236,7 @@
                   <a class="nav-link me-4 active" href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-4 active" href="#">Products</a>
+                    <a class="nav-link me-4 active" href="#product-list">Products</a>
                   </li>
                 <li class="nav-item">
                   <a class="nav-link me-4" href="{{ URL::to('/contact') }}">Contact</a>
